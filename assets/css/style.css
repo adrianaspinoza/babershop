@@ -10039,12 +10039,17 @@ header h1 {
   font-weight: 900;
   text-align: center;
   font-size: 70px;
+  color: #fff;
 }
 header .titulo-centrado {
   padding: 150px 5px 200px 5px;
 }
+header .titulo-blog {
+  width: 90%;
+}
 header .fa, header .fas {
   font-size: 30px;
+  color: #fff;
 }
 
 .parrafos {
@@ -10078,10 +10083,9 @@ a:hover {
 }
 
 .hero-section {
-  background-color: #000;
-  /* deje este color porque no se me muestra la imagen */
-  height: 500px;
-  background-image: url("../../img/post-image.jpg");
+  height: 600px;
+  background: transparent url("../img/post-image.jpg") 0% 0% no-repeat padding-box;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,12 +4,17 @@ h1{
     font-weight: $playfair-black;;
     text-align: center;
     font-size: $font-xx-large;
+    color: $white;
 }
 .titulo-centrado{
     padding: 150px 5px 200px 5px;
 }
+.titulo-blog{
+    width: 90%;
+}
 .fa, .fas {
     font-size:$font-x-large ;
+    color: $white;
 }
 }
 .parrafos{
@@ -41,7 +46,8 @@ a:hover {
     }
 }
 .hero-section{  
-    background-color: #000; /* deje este color porque no se me muestra la imagen */
-    height: 500px;
-    background-image: url("../../img/post-image.jpg");
+
+    height: 600px;
+    background: transparent url('../img/post-image.jpg') 0% 0% no-repeat padding-box;
+    background-size: cover;
 }
