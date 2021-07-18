@@ -1,0 +1,47 @@
+header{
+h1{
+    font-family: $secondary-font;
+    font-weight: $playfair-black;;
+    text-align: center;
+    font-size: $font-xx-large;
+}
+.titulo-centrado{
+    padding: 150px 5px 200px 5px;
+}
+.fa, .fas {
+    font-size:$font-x-large ;
+}
+}
+.parrafos{
+width: 90%;
+}
+.pagi {
+    background-color: #E6E7E7;
+    padding: 50px 30px 30px 30px;
+}
+a:hover {
+    color: $raisin-black;
+    text-decoration: none;
+}
+#autor{
+    .autor{
+        width: 90%;
+    }
+    img{
+        border-radius: 50%;
+        height: 100%;
+        width: auto;
+    }
+    h2{
+        font-family: $lobster;
+        font-size: $font-x-large;
+    }
+    a{
+        font-size:$font-large ;
+    }
+}
+.hero-section{  
+    background-color: #000; /* deje este color porque no se me muestra la imagen */
+    height: 500px;
+    background-image: url("../../img/post-image.jpg");
+}

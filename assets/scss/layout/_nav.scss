@@ -1,0 +1,22 @@
+.navbar img {
+    height: 40px;
+    width: auto;
+}
+.navbar{
+    background-color: $bg-black;
+    padding: 30px;
+    width: 90%;
+}
+.nav-container{
+    background-color: $bg-black;
+}
+#navbarScroll a{
+    color: $white;
+}
+#navbarScroll a.active{
+    color: $ruddy-pink;
+}
+#navbarScroll a:hover {
+    color: $raisin-black;
+    text-decoration: none;
+}
